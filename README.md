@@ -4,7 +4,8 @@
 
 This is a Dockerfile for "beets" - (http://beets.radbox.org/)
 On github, in the src folder you will find "SABbeets.sh" which is the script that will run beets from this container.
-It assumes you are running all containers with the network stack being shared with the host.
+It assumes you are running all containers with the network stack being shared with the host. Ensure you also copy "beets.sh"
+to your config folder and that it is executable.
 
 ## Build from docker file:
 
